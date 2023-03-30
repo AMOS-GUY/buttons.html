@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>buttons</title>
+    <style>
+      .subscribe-button{
+        background-color: rgb(255, 0, 0);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-right: 5px;
+        transition: opacity 0.15s;
+      }
+      .subscribe-button:hover{
+        opacity: 0.8;
+      }
+      .subscribe-button:active{
+        opacity: 0.6;
+      }
+      .join-button{
+        background-color: white;
+        color: rgb(41, 118, 211);
+        border-color: rgb(41, 118, 211);
+        border-style: solid;
+        border-width: 1px;
+        height: 36px;
+        width: 62px;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 1s, color 1s;
+      }
+      .join-button:hover{
+        background-color: rgb(78, 138, 228);
+        color: white;
+      }
+      .join-button:active{
+        opacity: 0.7;
+      }
+      .tweet-button{
+        background-color: rgb(0, 153, 255);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 75px;
+        border-radius: 24px;
+        font-weight: bolder;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 6px;
+        
+      }
+      .tweet-button:hover{
+        box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.15);
+        transition: box-shadow 1.5s;
+      }
+      .add-to-chart-button{
+        background-color: rgba(255, 255, 0, 0.836);
+        height: 29px;
+        width: 150px;
+        border: none;
+        color: black;
+        border-radius: 15px;
+        font-weight: bolder;
+        transition: background-image 1s, box-shadow 1s;
+      }
+      .add-to-chart-button:hover{
+        background-color: rgb(255, 230, 0);
+        box-shadow: 2px 2px 3px black;
+        transition: box shadow 1s;
+      }
+      .add-to-chart-button:active{
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="subscribe-button">SUBSCRIBE</button>
+<button class="join-button">JOIN</button>
+<button class="tweet-button"><b>Tweet</b></button>
+<button class="add-to-chart-button">Add to chart</button>
+  </body>
+</html>
